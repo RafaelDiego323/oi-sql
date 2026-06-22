@@ -1,0 +1,5 @@
+SELECT * FROM OrderDetails
+WHERE Quantity
+AND ProductID = 4
+ORDER BY OrderDetailID
+DESC
