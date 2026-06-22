@@ -1,0 +1,4 @@
+SELECT MAX(Quantity) 
+FROM OrderDetails 
+WHERE ProductID NOT 
+BETWEEN 5 AND 15;
