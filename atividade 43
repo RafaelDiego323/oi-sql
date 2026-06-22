@@ -1,0 +1,4 @@
+SELECT MAX(OrderDetailID) 
+FROM OrderDetails 
+WHERE Quantity 
+BETWEEN 7 AND 14;
