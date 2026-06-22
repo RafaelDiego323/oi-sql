@@ -1,0 +1,1 @@
+SELECT COUNT(DISTINCT ProductID) FROM OrderDetails;
