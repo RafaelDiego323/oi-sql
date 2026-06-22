@@ -1,0 +1,5 @@
+SELECT * FROM OrderDetails
+WHERE Quantity
+AND   ProductID <> 2
+ORDER BY OrderID
+ASC;
