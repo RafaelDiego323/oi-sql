@@ -1,0 +1,5 @@
+SELECT * 
+FROM OrderDetails
+WHERE OrderID 
+ORDER BY Quantity %5=0 
+ASC;
