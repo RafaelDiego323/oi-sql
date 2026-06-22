@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM OrderDetails WHERE OrderDetailID % 2 = 0;
