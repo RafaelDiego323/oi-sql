@@ -1,0 +1,4 @@
+SELECT MAX (Quantity) 
+FROM OrderDetails
+WHERE ProductID = 6 
+order by OrderID
