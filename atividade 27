@@ -1,0 +1,3 @@
+SELECT MAX(OrderDetailID) 
+FROM OrderDetails 
+WHERE Quantity % 3 = 0;
