@@ -1,0 +1,5 @@
+SELECT * FROM OrderDetails
+WHERE Quantity
+AND ProductID = 3
+ORDER BY OrderDetailD
+DESC;
