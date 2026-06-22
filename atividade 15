@@ -1,0 +1,5 @@
+SELECT * FROM OrderDetails
+WHERE Quantity
+AND ProductID LIKE ('5,10')
+ORDER BY OrderDetailID
+ASC;
