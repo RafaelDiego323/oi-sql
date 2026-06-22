@@ -1,0 +1,4 @@
+SELECT * FROM OrderDetails
+WHERE Quantity
+ORDER BY OrderDetailD
+desc;
