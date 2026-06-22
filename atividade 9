@@ -1,0 +1,4 @@
+SELECT * FROM OrderDetails
+WHERE OrderID 
+ORDER BY Quantity
+ASC;
