@@ -1,0 +1,4 @@
+SELECT MIN(ProductID) 
+FROM OrderDetails 
+WHERE Quantity 
+BETWEEN 5 AND 15;
