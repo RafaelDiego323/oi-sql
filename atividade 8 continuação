@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM OrderDetails WHERE Quantity BETWEEN 5 AND 15;
