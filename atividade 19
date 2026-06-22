@@ -1,0 +1,5 @@
+SELECT MAX(Quantity) 
+FROM OrderDetails
+WHERE OrderID <30
+order by ProductID
+DESC
