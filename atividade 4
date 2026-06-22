@@ -1,0 +1,5 @@
+SELECT * FROM OrderDetails
+WHERE OrderID
+AND Quantity > 5
+ORDER BY OrderDetailD
+DESC;
