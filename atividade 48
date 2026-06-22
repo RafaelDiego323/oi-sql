@@ -1,0 +1,4 @@
+SELECT MIN(Quantity) 
+FROM OrderDetails 
+WHERE CAST(ProductID AS VARCHAR) 
+LIKE '%5';
