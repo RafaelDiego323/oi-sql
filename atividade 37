@@ -1,0 +1,4 @@
+SELECT MAX(OrderDetailID) 
+FROM OrderDetails 
+WHERE ProductID 
+BETWEEN 3 AND 8;
