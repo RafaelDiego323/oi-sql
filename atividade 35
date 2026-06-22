@@ -1,0 +1,3 @@
+SELECT MAX(OrderID) 
+FROM OrderDetails 
+WHERE CAST(ProductID AS VARCHAR) LIKE '2%';
