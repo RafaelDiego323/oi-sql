@@ -1,0 +1,4 @@
+SELECT MIN(OrderID) 
+FROM OrderDetails 
+WHERE Quantity < 8 
+ORDER BY ProductID;
