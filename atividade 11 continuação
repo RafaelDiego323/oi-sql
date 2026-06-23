@@ -1,3 +1,4 @@
 SELECT * OrderDetails
 FROM  Quantity
 WHERE Quantity %3=0
+ order by OrderDetailID ;
