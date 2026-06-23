@@ -1,0 +1,3 @@
+SELECT COUNT([DISTINCT] OrderID | *)
+FROM table_name
+WHERE ORDERID>100;
