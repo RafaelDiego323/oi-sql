@@ -1,0 +1,4 @@
+SELECT COUNT(*) 
+FROM OrderDetails 
+WHERE ProductID 
+BETWEEN 2 AND 10;
