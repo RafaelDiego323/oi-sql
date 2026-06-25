@@ -1,0 +1,4 @@
+SELECT COUNT(*) 
+FROM OrderDetails 
+WHERE OrderDetailID 
+LIKE '%3';
