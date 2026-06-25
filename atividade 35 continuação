@@ -1,0 +1,3 @@
+SELECT COUNT(DISTINCT ProductID) 
+FROM OrderDetails 
+WHERE Quantity > 18;
