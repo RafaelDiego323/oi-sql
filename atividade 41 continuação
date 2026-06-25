@@ -1,6 +1,4 @@
 SELECT COUNT(*) 
-FROM OrderDetails 
+FROM OrderDetails
 WHERE OrderID 
-BETWEEN 30 AND 70;42. SELECT COUNT(*) 
-FROM OrderDetails 
-WHERE ProductID = 7;
+BETWEEN 30 AND 70;
