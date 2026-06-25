@@ -1,0 +1,4 @@
+SELECT COUNT(*) 
+FROM OrderDetails 
+WHERE OrderID 
+BETWEEN 10 AND 40;
