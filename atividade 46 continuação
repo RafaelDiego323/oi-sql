@@ -1,0 +1,4 @@
+SELECT COUNT(*) 
+FROM OrderDetails 
+WHERE Quantity 
+BETWEEN 7 AND 14;
